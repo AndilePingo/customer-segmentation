@@ -20,7 +20,11 @@ Thumbs.db
 mlruns/
 
 # DVC artifacts (if we use later)
+*# Ignore all DVC-tracked data
 *.dvc
+# But keep the DVC metadata files
+!*.dvc
+
 .cache/
 plots/
 
@@ -28,4 +32,5 @@ plots/
 *.csv
 *.xlsx
 data/
+!data/Online_Retail.csv.dvc
 
