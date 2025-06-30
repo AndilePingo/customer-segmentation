@@ -1,0 +1,31 @@
+# Git ignore rules 
+# Python
+__pycache__/
+*.py[cod]
+*.ipynb_checkpoints
+
+# Environments
+.env
+.venv
+*.env
+
+# Jupyter
+.ipynb_checkpoints
+
+# OS
+.DS_Store
+Thumbs.db
+
+# MLflow artifacts
+mlruns/
+
+# DVC artifacts (if we use later)
+*.dvc
+.cache/
+plots/
+
+# Data files
+*.csv
+*.xlsx
+data/
+
